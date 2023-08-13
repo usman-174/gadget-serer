@@ -27,7 +27,7 @@ app.use(
   })
 );
 const corsOptions = {
-  origin: process.env.ORIGIN || "https://gadgetglobef.onrender.com",
+  origin: process.env.ORIGIN || "https://gadget-globe.vercel.app",
   credentials: true,
 };
 
